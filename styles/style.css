@@ -31,8 +31,12 @@
         url(../fonts/Inter-Bold.woff2) format("woff2");
 }
 
-.page {
+body {
   background-color: #2a2c2f;
+}
+
+.page {
+  background-color: red;
   font-family: "Inter",sans-serif;
   margin: 0 auto;
   width: 100%;
