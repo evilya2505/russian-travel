@@ -1,0 +1,15 @@
+.content__photo-grid {
+  margin: 92px auto 0;
+}
+
+@media screen and (max-width: 768px) {
+  .content__photo-grid {
+    margin-top: 88px;
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .content__photo-grid {
+    margin-top: 64px;
+  }
+}

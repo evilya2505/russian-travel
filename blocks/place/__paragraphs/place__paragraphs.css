@@ -1,0 +1,5 @@
+@media screen and (max-width: 642px) {
+  .place__paragraphs {
+    margin: 32px 0 0;
+  }
+}

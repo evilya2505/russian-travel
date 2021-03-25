@@ -1,0 +1,20 @@
+.footer__copyright {
+  margin: 0;
+  color: #fff;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 16px;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    margin-left: 0;
+  }
+}
