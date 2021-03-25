@@ -6,15 +6,15 @@
   <meta name="description" content="Путешествие по России">
   <link rel="stylesheet" href="pages/index.css">
   <title>Путешествие по России</title>
-  <base target="_blank">
+  <!-- <base target="_blank"> -->
 </head>
 <body class="root">
   <!-- Header Section -->
   <header class="header root__header">
-    <a href=""><img src="../russian-travel/images/header-logo.svg" alt="" class="header__logo"></a>
+    <a href=""><img src="../russian-travel/images/header-logo.svg" alt="изображение логотипа" class="header__logo" target="_self"></a>
     <div class="header__lang-links">
-      <a href="" class="header__lang-link header__lang-link_active">Ru</a>
-      <a href="" class="header__lang-link">En</a>
+      <a href="" class="header__lang-link header__lang-link_active" target="_self">Ru</a>
+      <a href="" class="header__lang-link" target="_self">En</a>
     </div>
   </header>
     <!-- Header Section -->
@@ -70,7 +70,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="http://park-kosa.ru" class="place__link">park-kosa.ru</a>
+            <a href="http://park-kosa.ru" class="place__link" target="_blank">park-kosa.ru</a>
           </div>
           <img src="./images/place-kosa.jpg" alt="изображение реликтового леса на берегу Куршской косы (Балтийское море)" class="place__image">
           <div class="place__paragraphs">
@@ -82,7 +82,7 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
+            <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link" target="_blank">National Geographic</a>
           </div>
           <img src="./images/place-kolsky.jpg" alt="изображение Кольского полуострова" class="place__image">
           <div class="place__paragraphs">
@@ -96,7 +96,7 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link">Facebook</a>
+            <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="place__link" target="_blank">Facebook</a>
           </div>
           <img src="./images/place-altai.jpg" alt="изображение Телецкого озера" class="place__image">
           <div class="place__paragraphs">
@@ -109,7 +109,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="https://vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
+            <a href="https://vk.com/baikalmile" class="place__link" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place-winter-baikal.jpg" alt="изображение озера Байкал зимой" class="place__image">
           <div class="place__paragraphs">
@@ -123,7 +123,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a href="http://vodlozero.ru" class="place__link">http://vodlozero.ru/</a>
+            <a href="http://vodlozero.ru" class="place__link" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" alt="изображение озера Пизанец в Республике Карелия" class="place__image">
           <div class="place__paragraphs">
@@ -138,7 +138,7 @@
 
     <!-- Cover Section -->
     <section class="cover content__cover">
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
         <div class="cover__background">
           <div class="cover__overlay"></div>
           <div class="cover__text">
@@ -158,11 +158,11 @@
   <footer class="footer root__footer">
     <nav>
     <ul class="footer__links">
-      <li><a href="https://yandex.ru/maps" class="footer__link">Карты</a></li>
-      <li><a href="https://yandex.ru/pogoda" class="footer__link">Погода</a></li>
-      <li><a href="https://rasp.yandex.ru" class="footer__link">Расписание</a></li>
-      <li><a href="https://calendar.yandex.ru" class="footer__link">Календарь</a></li>
-      <li><a href="https://travel.yandex.ru" class="footer__link">Путешествия</a></li>
+      <li><a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a></li>
+      <li><a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a></li>
+      <li><a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a></li>
+      <li><a href="https://calendar.yandex.ru" class="footer__link"target="_blank">Календарь</a></li>
+      <li><a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a></li>
     </ul>
     </nav>
     <p class="footer__copyright">&copy; 2021. Эвелина Ким</p>
