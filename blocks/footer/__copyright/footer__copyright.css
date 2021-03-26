@@ -10,11 +10,10 @@
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  margin-left: 16px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 706px) {
   .footer__copyright {
-    margin-left: 0;
+    line-height: 14px;
   }
 }
