@@ -1,5 +1,6 @@
 .lead {
-  max-width: calc(100vw - 148px*2);
+  /* max-width: calc(100vw - 148px*2); */
+  max-width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
