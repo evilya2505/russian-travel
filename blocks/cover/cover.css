@@ -1,7 +1,6 @@
 .cover {
   background-image: url(../../images/cover-trains.jpg);
-  /* width: calc(100vw - 48px*2); */
-  max-width: 100%;
+  max-width: calc(100% - 48px*2);
   background-position: center;
   background-size: cover;
   min-height: 740px;
@@ -11,7 +10,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover {
-    width: 100%;
+    max-width: 100%;
     min-height: 640px;
   }
 }

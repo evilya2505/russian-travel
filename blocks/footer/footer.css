@@ -1,5 +1,5 @@
 .footer {
-  max-width: calc(100vw - 48px*2);
+  max-width: calc(100% - 48px*2);
   padding-bottom: 24px;
   display: -ms-grid;
   display: grid;
@@ -14,13 +14,13 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    max-width: calc(100vw - 24px*2);
+    max-width: calc(100% - 24px*2);
   }
 }
 
 @media screen and (max-width: 706px) {
   .footer {
-    max-width: calc(100vw - 16px*2);
+    max-width: calc(100% - 16px*2);
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto 48px auto;
